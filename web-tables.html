@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="code6-1_table.css" rel="stylesheet" />
+    <link href="code6-1_layout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1> My Weekly Schedule</h1>
+    </header>
+    <table>
+        <caption>Year 2022</caption>
+        <colgroup>
+            <col id="firstCol" />
+            <col id="hourCols" span="9" />
+        </colgroup>
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="time">6:00am</th>
+                    <td class="sleep" colspan="7" rowspan="">Sleeping</td>
+                </tr>
+                <tr>
+                    <th class="time">7:00am</th>
+                    <td class="sleep" colspan="2" rowspan="3">Sleeping</td>
+                    <td>Wakeup and Getting Ready for Class</td>
+                    <td class="sleep" colspan="4" rowspan="5">Sleeping</td>
+                </tr>
+                <tr>
+                    <th class="time">8:00am</th>
+                    <td>First Class of the Day</td>
+                </tr>
+                <tr>
+                    <th class="time">10:00am</th>
+                    <td>Second Class of the Day</td>
+                </tr>
+                <tr>
+                    <th class="time">11:30am</th>
+                    <td class="sleep" colspan="2" rowspan="2">Sleeping</td>
+                    <td>End of Second Class and going home</td>
+                </tr>
+                <tr>
+                    <th class="time">12:00pm</th>
+                    <td>Playing Video Games or Sleeping</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th class="time">3:00pm</th>
+                    <td class="wakeup" colspan="2">Wakeup</td>
+                    <td>Wakeup from Nap or Playing</td>
+                    <td class="wakeup" colspan="4">Wakeup</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th class="time">4:00pm</th>
+                    <td class="homework" rowspan="5">Doing Homework</td>
+                    <td class="playing" colspan="5" rowspan="5">Playing Video Games</td>
+                    <td class="homework" rowspan="5">Doing Homework</td>
+                </tr>
+                <tr>
+                    <th class="time">5:00pm</th>
+                </tr>
+                <tr>
+                    <th class="time">6:00pm</th>
+                </tr>
+                <tr>
+                    <th class="time">7:00pm</th>
+                </tr>
+                <tr>
+                    <th class="time">8:00pm</th>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th class="time">9:00pm</th>
+                    <td class="eating" colspan="7">Eating Lunch or Dinner</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th class="time">10:00pm</th>
+                    <td class="homework" colspan="7" rowspan="2">Doing Homework</td>
+                </tr>
+                <tr>
+                    <th class="time">11:00pm</th>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th class="time">12:00</th>
+                    <td class="playing" colspan="7" rowspan="4">Playing Video Games with Friends</td>
+                </tr>
+                <tr>
+                    <th class="time">1:00am</th>
+                </tr>
+                <tr>
+                    <th class="time">2:00am</th>
+                </tr>
+                <tr>
+                    <th class="time">3:00am</th>
+                </tr>
+            </tbody>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th class="time">4:00am</th>
+                    <td class="spanned" colspan="7" rowspan="2">Watching Anime or Youtube and work on getting to sleep</td>
+                </tr>
+                <tr>
+                    <th class="time">5:00am</th>
+                </tr>
+            </tbody>
+            </tbody>
+        </table>
+</body>
+
+</html>

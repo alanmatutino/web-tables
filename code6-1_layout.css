@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Filename: code6-1_layout.css
+
+*/
+html {
+   width: 100%;
+}
+
+body {
+   width: 95%;
+   margin: 0px auto;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1em;
+}
+
+h1 {
+   font-size: 2em;
+}
